@@ -6,7 +6,8 @@
 
             <!-- additional css -->
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
             <!-- CSS Style -->
     <link rel="stylesheet" href="resource/css/style.css">
@@ -23,7 +24,7 @@
             <div class="hero-content col-md-6">
                 <h1>Hello I'm <br>
                     <span class="highlight">Mozahidul Islam</span></h1>
-                <P>I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.
+                <P class="about-me">I already learned the basic HTML and CSS. I can build any simple website. I can even teach my grandma how to make simple website. My goal is to build 3 websites and learn advanced topics.
                 </P>
                 <a class="hero-button" href="https://www.linkedin.com/in/mozahidul01/" target="_blank">Hire Me</a>
             </div>
@@ -47,8 +48,8 @@
             </div>
         
             <div class="biodata-content col-md-6">
-                <h2>Biodata</h2>
-                <p>I am a web developer based in Dhaka, Bangladesh. I have passion for web design & development. I like simple,fast & secure website.I have some skill in HTML, CSS, Bootstrap, Java Script, React, Node.js, MongoDB, WordPress, PHP & MySQL. As a web developer I focused on customer satisfaction, I manage all aspects of Web development from concept to requirements definition, design, development, launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.</p>
+                <h2 class="biodata-title">Biodata</h2>
+                <p class="biodata-details">I am a web developer based in Dhaka, Bangladesh. I have passion for web design & development. I like simple,fast & secure website.I have some skill in HTML, CSS, Bootstrap, Java Script, React, Node.js, MongoDB, WordPress, PHP & MySQL. As a web developer I focused on customer satisfaction, I manage all aspects of Web development from concept to requirements definition, design, development, launch, maintenance and user support. I enjoy the client-facing role and working closely with team members to produce high-quality deliverables.</p>
                 <a class="biodata-button" target="_blank" href="https://www.linkedin.com/in/mozahidul01/">DOWNLOAD RESUME</a>
             </div>
         </div>
@@ -61,19 +62,32 @@
 
 <section class="work-section">
     <div class="container">
-        <h3 class="work-title">My Latest work</h3>
+        <h3 class="work-title"> <span class="highlight">Latest </span>working Project</h3>
         <div class="row d-flex align-items-center justify-content-around">
-            <div id="first-image" class="work-image col-md-4">
-                <img class=" d-block w-100 image-border" src="resource/image/work-1.png" alt="work-image">
+            <div class="col-md-4">
+                <div class="work-content">
+                    <img class="d-block w-100" src="resource/image/work-1.png" alt="work-image">
+                    <p class="project-title">Power-x-gym</p>
+                    <p class="project-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
             </div>
-        
-            <div class="work-image col-md-4">
-                <img class=" d-block w-100 image-border" src="resource/image/work-2.jpg" alt="work-image">
+            
+            <div class="col-md-4">
+                <div class="work-content">
+                    <img class="d-block w-100" src="resource/image/work-2.png" alt="work-image">
+                    <p class="project-title">Creative Agency</p>
+                    <p class="project-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
             </div>
-        
-            <div class="work-image col-md-4">
-                <img class=" d-block w-100 image-border" src="resource/image/work-3.jpg" alt="work-image">
+            
+            <div class="col-md-4">
+                <div class="work-content">
+                    <img class="d-block w-100" src="resource/image/work-3.png" alt="work-image">
+                    <p class="project-title">Hard Rock Music</p>
+                    <p class="project-details">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
             </div>
+            
         </div>
     </div>
 </section>
@@ -85,7 +99,7 @@
 
     <div class="container">
 
-        <h3 class="experience-title">My Experiences</h3>
+        <h3 class="experience-title">My <span class="highlight"> Experiences </span></h3>
 
         <div class="row d-flex align-items-center justify-content-around">
 
@@ -96,7 +110,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Full Stack Web Developer</h5>
                       <h6 class="orange-highlight">2021 - Present | Pro level Web Dev</h6>
-                      <p class="card-text">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I didn't stop with the web. I went beyond with most popular Javascript framework called Vue JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
+                      <p class="card-text">I am the master of HTML, CSS and Javascript. I know everything needed to make a website function, efficient. I went beyond with most popular Javascript framework called React JS. I even know the deployment, server and security. I will give you 100% web solution.</p>
                     </div>
                   </div>
                 </div>
@@ -122,30 +136,70 @@
 
 <section class="testimonial-section">
     <div class="container">
+        <h3 class="testimonial-title" >What Client are <span class="highlight"> Say</span></h3>
+
         <div class="row">
-            <div class="testimonial-content col-md-6">
-                <h3 class="testimonial-title" >What Client are Say</h3>
-                <p class="client-name">Kalam Alam</p>
-                <p class="client-position">Founder & CEO</p>
-                <p class="client-say">"Lorem ipsum dolor sit amet consectetur adipiscing elit, etiam lobortis et nam ut rhoncus, tempus justo at integer fringilla natoque."</p>
+            <div class="col-md-6">
+                <div class="testimonial-content">   
+                    <p class="client-say">"Lorem ipsum dolor sit amet consectetur adipiscing elit, etiam lobortis et nam ut rhoncus, tempus justo at integer fringilla natoque."</p>
+                    <p class="client-name">Kalam Alam</p>
+                    <p class="client-position">Founder & CEO</p>
+                </div>
+            </div>
+            
+            <div class="col-md-6">
+                <div class="testimonial-content">   
+                    <p class="client-say">"Lorem ipsum dolor sit amet consectetur adipiscing elit, etiam lobortis et nam ut rhoncus, tempus justo at integer fringilla natoque."</p>
+                    <p class="client-name">Abdul Rahim</p>
+                    <p class="client-position">Managing Derector</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>
+
+<!------- Contact SECTION-------->
+
+<section class="contact-section">
+    <div class="container">
+        <div class="row">
+            <div class="message col">
+                <div class="row">
+                    <div class="col">
+                        <p class="message-title" >Work Inquiry</p>
+                    </div>
+                    <div class="col">
+                        <a href="https://m.me/mozahidul01" target="_blank" class="chat-btn">Let's Chat</a>
+                    </div>
+                </div>
             </div>
         </div>
+
         <div class="row">
-            <div class="contact col-md-6">
-                <p class="contact-massage">Live me a massage in the</p>
-                <a class="mail" href="mailto:mozo.postbox@gmail.com">mozo.postbox@gmail.com</a>
+            <div class="col">
+                <h4 class="mail-title">Stay Connected</h4>
+                <div class="position-relative">
+                    <a href="mailto:mozo.postbox@gmail.com" class="position-absolute top-0 start-50 translate-middle mail" >Mozo.postbox@gmail.com</a>
+                </div>
+                <div class="social-btn">
+                    <ul class="social-icons d-flex justify-content-center">
+                        <li><a class="social-icon" href="https://github.com/Mozahidul01"><i class="fab fa-github"></i></a></li>
+                        <li><a class="social-icon" href="https://www.linkedin.com/in/mozahidul01"><i class="fab fa-linkedin"></i></a></i></li>
+                        <li><a class="social-icon" href="https://www.instagram.com/mozahidul01/"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-------FOOTER SECTION-------->
 
 <footer>
     <p>© Mozahidul 2020, all rights reserved by Mozahidul.</p>
 </footer>
-
-<h1>demo code</h1>
 
 </body>
 </html>

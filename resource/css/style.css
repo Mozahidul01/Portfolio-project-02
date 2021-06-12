@@ -46,9 +46,10 @@ h6{
 }
 
 p{
-    font-size: 16px;
+    font-size: 16px !important;
     font-weight: 500;
     color: #9b9b9b;
+    text-align: left !important;
 }
 
 .highlight{
@@ -289,7 +290,7 @@ p{
 }
 
 .message-title{
-    font-size: 34px;
+    font-size: 34px !important;
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;

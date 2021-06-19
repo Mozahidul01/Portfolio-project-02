@@ -1,1 +1,2 @@
-# personal-website-assignment
+# Portfolio Project 02
+
